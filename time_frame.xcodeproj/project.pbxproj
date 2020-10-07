@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881B156D24C23FCA004AE52D /* time_frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 881B156B24C23FCA004AE52D /* time_frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		881B157F24C23FDA004AE52D /* exploit.h in Headers */ = {isa = PBXBuildFile; fileRef = 881B157324C23FD9004AE52D /* exploit.h */; };
+		881B158024C23FDA004AE52D /* kernel_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 881B157424C23FD9004AE52D /* kernel_memory.c */; };
+		881B158124C23FDA004AE52D /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B157524C23FD9004AE52D /* offsets.m */; };
+		881B158224C23FDA004AE52D /* IOAccelerator_stuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 881B157624C23FD9004AE52D /* IOAccelerator_stuff.h */; };
+		881B158324C23FDA004AE52D /* offsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 881B157724C23FD9004AE52D /* offsets.h */; };
+		881B158424C23FDA004AE52D /* exploit_utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 881B157824C23FD9004AE52D /* exploit_utilities.c */; };
+		881B158524C23FDA004AE52D /* exploit.c in Sources */ = {isa = PBXBuildFile; fileRef = 881B157924C23FD9004AE52D /* exploit.c */; };
+		881B158624C23FDA004AE52D /* IOAccelerator_stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 881B157A24C23FD9004AE52D /* IOAccelerator_stuff.c */; };
+		881B158724C23FDA004AE52D /* exploit_utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 881B157B24C23FD9004AE52D /* exploit_utilities.h */; };
+		881B158824C23FDA004AE52D /* IOSurface_stuff.h in Headers */ = {isa = PBXBuildFile; fileRef = 881B157C24C23FD9004AE52D /* IOSurface_stuff.h */; };
+		881B158924C23FDA004AE52D /* IOSurface_stuff.c in Sources */ = {isa = PBXBuildFile; fileRef = 881B157D24C23FD9004AE52D /* IOSurface_stuff.c */; };
+		881B158A24C23FDA004AE52D /* kernel_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = 881B157E24C23FDA004AE52D /* kernel_memory.h */; };
+		881B158C24C2401A004AE52D /* time_framer.m in Sources */ = {isa = PBXBuildFile; fileRef = 881B158B24C2401A004AE52D /* time_framer.m */; };
+		881B158F24C240AD004AE52D /* IOKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 881B158E24C240AD004AE52D /* IOKit.tbd */; };
+		88ECD75B2527ED730046CD7A /* IOKitKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 88ECD7562527ED730046CD7A /* IOKitKeys.h */; };
+		88ECD75C2527ED730046CD7A /* IOKitLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 88ECD7572527ED730046CD7A /* IOKitLib.h */; };
+		88ECD75D2527ED730046CD7A /* IOReturn.h in Headers */ = {isa = PBXBuildFile; fileRef = 88ECD7582527ED730046CD7A /* IOReturn.h */; };
+		88ECD75E2527ED730046CD7A /* IOTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 88ECD7592527ED730046CD7A /* IOTypes.h */; };
+		88ECD75F2527ED730046CD7A /* OSMessageNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 88ECD75A2527ED730046CD7A /* OSMessageNotification.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		881B156824C23FCA004AE52D /* time_frame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = time_frame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		881B156B24C23FCA004AE52D /* time_frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = time_frame.h; sourceTree = "<group>"; };
+		881B156C24C23FCA004AE52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881B157324C23FD9004AE52D /* exploit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit.h; sourceTree = "<group>"; };
+		881B157424C23FD9004AE52D /* kernel_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kernel_memory.c; sourceTree = "<group>"; };
+		881B157524C23FD9004AE52D /* offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
+		881B157624C23FD9004AE52D /* IOAccelerator_stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAccelerator_stuff.h; sourceTree = "<group>"; };
+		881B157724C23FD9004AE52D /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		881B157824C23FD9004AE52D /* exploit_utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exploit_utilities.c; sourceTree = "<group>"; };
+		881B157924C23FD9004AE52D /* exploit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exploit.c; sourceTree = "<group>"; };
+		881B157A24C23FD9004AE52D /* IOAccelerator_stuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOAccelerator_stuff.c; sourceTree = "<group>"; };
+		881B157B24C23FD9004AE52D /* exploit_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exploit_utilities.h; sourceTree = "<group>"; };
+		881B157C24C23FD9004AE52D /* IOSurface_stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSurface_stuff.h; sourceTree = "<group>"; };
+		881B157D24C23FD9004AE52D /* IOSurface_stuff.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOSurface_stuff.c; sourceTree = "<group>"; };
+		881B157E24C23FDA004AE52D /* kernel_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kernel_memory.h; sourceTree = "<group>"; };
+		881B158B24C2401A004AE52D /* time_framer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = time_framer.m; sourceTree = "<group>"; };
+		881B158D24C24039004AE52D /* time_framer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = time_framer.h; sourceTree = "<group>"; };
+		881B158E24C240AD004AE52D /* IOKit.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = IOKit.tbd; sourceTree = "<group>"; };
+		88ECD7562527ED730046CD7A /* IOKitKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitKeys.h; sourceTree = "<group>"; };
+		88ECD7572527ED730046CD7A /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOKitLib.h; sourceTree = "<group>"; };
+		88ECD7582527ED730046CD7A /* IOReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOReturn.h; sourceTree = "<group>"; };
+		88ECD7592527ED730046CD7A /* IOTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOTypes.h; sourceTree = "<group>"; };
+		88ECD75A2527ED730046CD7A /* OSMessageNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMessageNotification.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881B156524C23FCA004AE52D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881B158F24C240AD004AE52D /* IOKit.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		881B155E24C23FCA004AE52D = {
+			isa = PBXGroup;
+			children = (
+				881B156A24C23FCA004AE52D /* time_frame */,
+				881B156924C23FCA004AE52D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881B156924C23FCA004AE52D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881B156824C23FCA004AE52D /* time_frame.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881B156A24C23FCA004AE52D /* time_frame */ = {
+			isa = PBXGroup;
+			children = (
+				88ECD7552527ED730046CD7A /* IOKit */,
+				881B158E24C240AD004AE52D /* IOKit.tbd */,
+				881B156B24C23FCA004AE52D /* time_frame.h */,
+				881B158B24C2401A004AE52D /* time_framer.m */,
+				881B158D24C24039004AE52D /* time_framer.h */,
+				881B157824C23FD9004AE52D /* exploit_utilities.c */,
+				881B157B24C23FD9004AE52D /* exploit_utilities.h */,
+				881B157924C23FD9004AE52D /* exploit.c */,
+				881B157324C23FD9004AE52D /* exploit.h */,
+				881B157A24C23FD9004AE52D /* IOAccelerator_stuff.c */,
+				881B157624C23FD9004AE52D /* IOAccelerator_stuff.h */,
+				881B157D24C23FD9004AE52D /* IOSurface_stuff.c */,
+				881B157C24C23FD9004AE52D /* IOSurface_stuff.h */,
+				881B157424C23FD9004AE52D /* kernel_memory.c */,
+				881B157E24C23FDA004AE52D /* kernel_memory.h */,
+				881B157724C23FD9004AE52D /* offsets.h */,
+				881B157524C23FD9004AE52D /* offsets.m */,
+				881B156C24C23FCA004AE52D /* Info.plist */,
+			);
+			path = time_frame;
+			sourceTree = "<group>";
+		};
+		88ECD7552527ED730046CD7A /* IOKit */ = {
+			isa = PBXGroup;
+			children = (
+				88ECD7562527ED730046CD7A /* IOKitKeys.h */,
+				88ECD7572527ED730046CD7A /* IOKitLib.h */,
+				88ECD7582527ED730046CD7A /* IOReturn.h */,
+				88ECD7592527ED730046CD7A /* IOTypes.h */,
+				88ECD75A2527ED730046CD7A /* OSMessageNotification.h */,
+			);
+			path = IOKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		881B156324C23FCA004AE52D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881B158724C23FDA004AE52D /* exploit_utilities.h in Headers */,
+				881B158A24C23FDA004AE52D /* kernel_memory.h in Headers */,
+				88ECD75D2527ED730046CD7A /* IOReturn.h in Headers */,
+				881B157F24C23FDA004AE52D /* exploit.h in Headers */,
+				88ECD75E2527ED730046CD7A /* IOTypes.h in Headers */,
+				88ECD75C2527ED730046CD7A /* IOKitLib.h in Headers */,
+				881B158324C23FDA004AE52D /* offsets.h in Headers */,
+				881B158224C23FDA004AE52D /* IOAccelerator_stuff.h in Headers */,
+				88ECD75B2527ED730046CD7A /* IOKitKeys.h in Headers */,
+				881B156D24C23FCA004AE52D /* time_frame.h in Headers */,
+				881B158824C23FDA004AE52D /* IOSurface_stuff.h in Headers */,
+				88ECD75F2527ED730046CD7A /* OSMessageNotification.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		881B156724C23FCA004AE52D /* time_frame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881B157024C23FCA004AE52D /* Build configuration list for PBXNativeTarget "time_frame" */;
+			buildPhases = (
+				881B156324C23FCA004AE52D /* Headers */,
+				881B156424C23FCA004AE52D /* Sources */,
+				881B156524C23FCA004AE52D /* Frameworks */,
+				881B156624C23FCA004AE52D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = time_frame;
+			productName = time_frame;
+			productReference = 881B156824C23FCA004AE52D /* time_frame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881B155F24C23FCA004AE52D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Brandon Plank";
+				TargetAttributes = {
+					881B156724C23FCA004AE52D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 881B156224C23FCA004AE52D /* Build configuration list for PBXProject "time_frame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881B155E24C23FCA004AE52D;
+			productRefGroup = 881B156924C23FCA004AE52D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881B156724C23FCA004AE52D /* time_frame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881B156624C23FCA004AE52D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881B156424C23FCA004AE52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881B158424C23FDA004AE52D /* exploit_utilities.c in Sources */,
+				881B158C24C2401A004AE52D /* time_framer.m in Sources */,
+				881B158124C23FDA004AE52D /* offsets.m in Sources */,
+				881B158924C23FDA004AE52D /* IOSurface_stuff.c in Sources */,
+				881B158024C23FDA004AE52D /* kernel_memory.c in Sources */,
+				881B158624C23FDA004AE52D /* IOAccelerator_stuff.c in Sources */,
+				881B158524C23FDA004AE52D /* exploit.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		881B156E24C23FCA004AE52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		881B156F24C23FCA004AE52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		881B157124C23FCA004AE52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T8ALTGMVXN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = time_frame/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/time_frame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.brandonplank.time-frame";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		881B157224C23FCA004AE52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T8ALTGMVXN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = time_frame/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/time_frame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.brandonplank.time-frame";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881B156224C23FCA004AE52D /* Build configuration list for PBXProject "time_frame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881B156E24C23FCA004AE52D /* Debug */,
+				881B156F24C23FCA004AE52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881B157024C23FCA004AE52D /* Build configuration list for PBXNativeTarget "time_frame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881B157124C23FCA004AE52D /* Debug */,
+				881B157224C23FCA004AE52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 881B155F24C23FCA004AE52D /* Project object */;
+}
